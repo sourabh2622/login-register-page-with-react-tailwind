@@ -1,0 +1,49 @@
+@keyframes twinkle {
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-2px) scale(1.1);
+    }
+}
+@keyframes drift {
+    0% {
+        transform: translateY(0) translateX(0);
+    }
+    50% {
+        transform: translateY(-10px) translateX(5px);
+    }
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+}
+.star {
+    animation: twinkle 3s infinite ease-in-out, drift 10s infinite linear;
+}
+@keyframes rotatePlanet {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.02);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+@keyframes floatPlanet {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.planet {
+    animation: rotatePlanet 30s linear infinite, floatPlanet 8s ease-in-out infinite;
+    box-shadow: 0 0 80px rgba(255, 255, 255, 0.05);
+}
