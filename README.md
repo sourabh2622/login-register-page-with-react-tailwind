@@ -24,5 +24,3 @@ A modern, responsive and animated Login/Register authentication interface built 
 - **Vite** – Lightning-fast dev server and build tool
 - **LocalStorage** – For basic mock authentication
 - **Vercel** – Deployment
-
----
