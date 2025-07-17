@@ -36,7 +36,7 @@ const Login = ({ onSwitch }) => {
     <>
 
       {/* form */}
-      <div className="border-[1px] border-gray-100/50 w-full max-w-sm p-8 rounded-xl z-2 bg-[#1e1e1e]/20 backdrop-blur-md">
+      <div className="border border-gray-100/50 w-full max-w-sm px-6 py-8 sm:px-8 sm:py-10 rounded-xl z-2 bg-[#1e1e1e]/20 backdrop-blur-none">
         <h1 className="text-2xl text-center">Sign In</h1>
         <form onSubmit={LoginHandler}>
           <div className="mt-5">
