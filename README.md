@@ -26,13 +26,3 @@ A modern, responsive and animated Login/Register authentication interface built 
 - **Vercel** – Deployment
 
 ---
-
-## 📸 Screenshots
-
-| Login Page | Register Page |
-|------------|----------------|
-| ![Login](public/screenshot-login.png) | ![Register](public/screenshot-register.png) |
-
-> 💡 Make sure to add these screenshot images to the `public/` folder if you want the markdown images to work.
-
----
